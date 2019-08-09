@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
     public void startFire(View view) {
         Intent intent = new Intent(this, ListActiviy.class);
         startActivity(intent);
+        juiiihh
     }
 }
