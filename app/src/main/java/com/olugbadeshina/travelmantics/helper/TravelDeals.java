@@ -6,7 +6,7 @@ public class TravelDeals {
     private String description;
     private String price;
     private String imageUrl;
-
+    private String id;
 
 
     public TravelDeals(String title, String description, String price, String imageUrl) {
@@ -14,6 +14,14 @@ public class TravelDeals {
         this.description = description;
         this.price = price;
         this.imageUrl = imageUrl;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getTitle() {
